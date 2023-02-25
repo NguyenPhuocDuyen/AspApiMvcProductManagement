@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<BusinessObject.OrderTotal>
+
+<h2>Filter Date</h2>
+<form method="get" action="/Orders/Report" class="row col-8">
+    <div class="form-group col col-4">
+        <label for="startDate">Start Date:</label>
+        <input type="date" class="form-control" id="startDate" name="startDate">
+    </div>
+    <div class="form-group col col-4">
+        <label for="endDate">End Date:</label>
+        <input type="date" class="form-control" id="endDate" name="endDate">
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+<div class="panel">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col col-sm-3 col-xs-12">
+                <h4 class="title">Report Order <span>List</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ten Cong Ty</th>
+                    <th>Ngay Dat Hang</th>
+                    <th>Tong</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Order.Member.CompanyName</td>
+                        <td>@item.Order.OrderDate.ToString("dd/MM/yyyy")</td>
+                        <td>@item.Total</td>
+                        <td>
+                            <ul class="action-list">
+                                <li><a asp-action="Details" asp-route-id="@item.Order.OrderId" data-tip="Detail"><i class="fa fa-solid fa-info"></i></a></li>
+                                <li><a asp-action="Edit" asp-route-id="@item.Order.OrderId" data-tip="Edit"><i class="fa fa-edit"></i></a></li>
+                                <li><a asp-action="Delete" asp-route-id="@item.Order.OrderId" data-tip="Delete"><i class="fa fa-trash"></i></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

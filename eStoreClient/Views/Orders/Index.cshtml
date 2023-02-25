@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BusinessObject.Order>
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Index";
+
+    var role = Context.Session.GetString("role");
+}
+
+@if (role.Contains("admin"))
+{
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+    </p>       
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col col-sm-3 col-xs-12">
+                <h4 class="title">History Order <span>List</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.MemberId)</th>
+                    <th>@Html.DisplayNameFor(model => model.OrderDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.RequiredDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.ShippedDate)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Member.CompanyName</td>
+                        <td>@item.OrderDate</td>
+                        <td>@item.RequiredDate</td>
+                        <td>@item.ShippedDate</td>
+                        <td>
+                            <ul class="action-list">
+                                <li><a asp-action="Details" asp-route-id="@item.OrderId" data-tip="Detail"><i class="fa fa-solid fa-info"></i></a></li>
+                                @if (role.Contains("admin"))
+                                {
+                                    <li><a asp-action="Edit" asp-route-id="@item.OrderId" data-tip="Edit"><i class="fa fa-edit"></i></a></li>
+                                    <li><a asp-action="Delete" asp-route-id="@item.OrderId" data-tip="Delete"><i class="fa fa-trash"></i></a></li>
+                                }
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

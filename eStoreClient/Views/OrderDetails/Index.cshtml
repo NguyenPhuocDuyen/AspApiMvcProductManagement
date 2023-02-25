@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BusinessObject.OrderDetail>
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Index";
+    var role = Context.Session.GetString("role");
+}
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+            
+<div class="panel">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col col-sm-6 col-xs-12">
+                <h4 class="title">History Order Detail <span>List</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.OrderId)</th>
+                    <th>@Html.DisplayNameFor(model => model.ProductId)</th>
+                    <th>@Html.DisplayNameFor(model => model.UnitPrice)</th>
+                    <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+                    <th>@Html.DisplayNameFor(model => model.Discount)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.OrderId</td>
+                        <td>@item.Product.ProductName</td>
+                        <td>@item.UnitPrice</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Discount</td>
+                        <td>
+                            <ul class="action-list">
+                                <li><a asp-action="Details" asp-route-propId="@item.ProductId" asp-route-orderId ="@item.OrderId" data-tip="Detail"><i class="fa fa-solid fa-info"></i></a></li>
+                                @if (role.Contains("admin"))
+                                {
+                                    <li><a asp-action="Edit" asp-route-propId="@item.ProductId" asp-route-orderId ="@item.OrderId" data-tip="Edit"><i class="fa fa-edit"></i></a></li>
+                                    <li><a asp-action="Delete" asp-route-propId="@item.ProductId" asp-route-orderId ="@item.OrderId" data-tip="Delete"><i class="fa fa-trash"></i></a></li>
+                                }
+                            </ul>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
