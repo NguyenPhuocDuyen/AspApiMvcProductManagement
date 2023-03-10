@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj": {}
+    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\duyen\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\obj\\",
+        "outputPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj": {
+    "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\duyen\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\obj\\",
+        "outputPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj"
+              "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

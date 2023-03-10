@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DPgPdHvBp6LdrgqskY+S88rWWGj3yX/KZQ5+M+qxpMbIEbGsh+9BOIPpVetYMkS1wP0mmXxs4FCp0zXoMttFAw==",
+  "dgSpecHash": "bQmDV2H5HHG1XaW/FhihJC7N3KfanEtkPrUnMueDJSgOhrTTPYjZ4fldkcf+rlAFTmO8yjpiLuwbNSntgz/70g==",
   "success": true,
-  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\eStoreClient\\eStoreClient.csproj",
+  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\eStoreClient\\eStoreClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duyen\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\duyen\\.nuget\\packages\\jquery\\1.6.3\\jquery.1.6.3.nupkg.sha512",

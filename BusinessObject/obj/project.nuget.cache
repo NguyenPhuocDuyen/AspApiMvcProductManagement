@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMOaMhztJ2d8ehcbXIj6r60ilXu1Vx5ANfyV4Hxa0TzA+oLDxuYjkymvFPOEWXInQbaoxyNwTPCjY+Y2I9HR/g==",
+  "dgSpecHash": "2X5WzL9Eq1SK09yL5ylFJOX/jIqFtpcVdZBRWbTB3d9Fc3BIjWCODO2AI6L3gWGOtIwTg2KqRCYCQjRvzvtiWg==",
   "success": true,
-  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
+  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\BusinessObject\\BusinessObject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duyen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\duyen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7971kvsw6QAmhT8vGW7+5Kqg/8h9gClaEKgZcc/RqogUzIiU9pZcwq2AFBE2czD8Y4z3PGtaGHLlCVBIN2lwg==",
+  "dgSpecHash": "dLp1wu5m28s2+4+6OiwsgeIUq8gNjKoBrgh24siaw9x/J1w9cYDU3vXVmdmxklxQXmqmcz5+kRq4aoIXQn/5OA==",
   "success": true,
-  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\Lab1\\Assignment01Solution_DuyenNPCE150850\\eStoreAPI\\eStoreAPI.csproj",
+  "projectFilePath": "D:\\WorkPlace\\C#_NangCao\\PRN221_C#_Ky_8\\Lab\\API_MVC\\Assignment01Solution_DuyenNPCE150850\\eStoreAPI\\eStoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duyen\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.17\\microsoft.aspnetcore.jsonpatch.5.0.17.nupkg.sha512",
     "C:\\Users\\duyen\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.17\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.17.nupkg.sha512",
